@@ -90,6 +90,8 @@ struct target_mapping_structure {
 static struct target_mapping_structure target_map[] = {
     // START_TARGET_LIST_LINE .. used for autocompletion script
     // Name             ID (arguments.h)    DevType    PID     VID     MemSize  BootSz  BootLoc  FPage EPage  ESize
+    { "sam4s8c",     	tar_atxmega256a3u,  ADC_XMEGA, 0x2FF8, 0x03eb, 0x480000, 0x2000, BL_EXTRA, 512,   0,      0 },
+    // Name             ID (arguments.h)    DevType    PID     VID     MemSize  BootSz  BootLoc  FPage EPage  ESize
     { "at89c51snd1c",   tar_at89c51snd1c,   ADC_8051,  0x2FFF, 0x03eb, 0x10000, 0x1000, BL_TOP,    128,   0,      0 },
     { "at89c51snd2c",   tar_at89c51snd2c,   ADC_8051,  0x2FFF, 0x03eb, 0x10000, 0x1000, BL_TOP,    128,   0,      0 },
     { "at89c5130",      tar_at89c5130,      ADC_8051,  0x2FFD, 0x03eb, 0x04000, 0x0C00, 0xF400,    128, 128, 0x0400 },
